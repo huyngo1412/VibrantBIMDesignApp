@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\Icon\Close.png" />
+    <None Remove="Resource\Icon\Logo.png" />
+    <None Remove="Resource\Icon\LogoVibrantBIM.png" />
+    <None Remove="Resource\Icon\Minimize.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\Datum\" />
+    <Folder Include="Model\FrameDesignOrientation\" />
+    <Folder Include="Model\Material\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RibbonControlsLibrary" Version="4.0.0" />
+    <PackageReference Include="System.Windows.Interactivity.WPF" Version="2.0.20525" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ETABSv1">
+      <HintPath>..\..\..\..\..\..\Program Files\Computers and Structures\ETABS 22\ETABSv1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Close.png" />
+    <Resource Include="Resource\Icon\Logo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resource\Icon\LogoVibrantBIM.png" />
+    <Resource Include="Resource\Icon\Minimize.png" />
+  </ItemGroup>
+
+</Project>
