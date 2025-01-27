@@ -12,6 +12,7 @@
     <None Remove="Resource\Icon\Close.png" />
     <None Remove="Resource\Icon\Logo.png" />
     <None Remove="Resource\Icon\LogoVibrantBIM.png" />
+    <None Remove="Resource\Icon\Maximized.png" />
     <None Remove="Resource\Icon\Minimize.png" />
     <None Remove="Resource\Language\Language.json" />
   </ItemGroup>
@@ -46,6 +47,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resource\Icon\LogoVibrantBIM.png" />
+    <Resource Include="Resource\Icon\Maximized.png" />
     <Resource Include="Resource\Icon\Minimize.png" />
   </ItemGroup>
 

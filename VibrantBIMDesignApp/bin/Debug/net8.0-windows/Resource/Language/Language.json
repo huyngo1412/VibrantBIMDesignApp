@@ -10,22 +10,58 @@
     "SaveAs": "Save As ...",
     "ModelTabControl": "  Model  ",
     "ConcreteBeamDesignTabControl": "  Concrete Beam Design  ",
-    "ConcreteColumnDesignTabControl": "  Concrete Column Design  "
+    "ConcreteColumnDesignTabControl": "  Concrete Column Design  ",
+    "Connect": "Connect",
+    "ScanProcess": "Scan Process",
+
+    "InternalForceRibbonControl": "Internal Force",
+    "ExportDatabaseToExcelRibbonControl": "Export to Excel file",
+    "DataRibbonTab": "Data",
+    "ReinforcementDesignRibbonTab": "Reinforcement Design",
+    "CheckRibbonTab": "Check",
+    "SettingRibbonTab": "Setting",
+    "LongitudinalBarsRibbonControl": "Longitudinal Bars",
+    "ConfinementBarsRibbonControl": "Confinement Bars",
+    "CheckTorsionRibbonControl": "Torsion",
+    "CheckTorsionABendingRibbonControl": "Torsion-Bending",
+    "CheckTorsionAShearRibbonControl": "Torsion-Shear",
+    "CheckCrackingRibbonControl": "Crack",
+    "CheckCurvatureRibbonControl": "Curvature",
+    "SettingRibbonControl": "Set Parameters"
+
   },
   "vn": {
-    "Login": "\u0110\u0103ng nh\u1EADp",
-    "UserName": "T\u00EAn t\u00E0i kho\u1EA3n : ",
-    "Author": "T\u00E1c gi\u1EA3 : Huy Ngo",
-    "File": "T\u1EC7p tin",
-    "NewFile": "T\u1EA1o t\u1EC7p",
-    "OpenFile": "M\u1EDF t\u1EC7p",
-    "Save": "L\u01B0u t\u1EC7p",
-    "SaveAs": "L\u01B0u th\u00E0nh ...",
-    "ModelTabControl": "  M\u00F4 h\u00ECnh  ",
-    "ConcreteBeamDesignTabControl": "  Thi\u1EBFt k\u1EBF d\u1EA7m  ",
-    "ConcreteColumnDesignTabControl": "  Thi\u1EBFt k\u1EBF c\u1ED9t  "
+    "Login": "Đăng nhập",
+    "UserName": "Tên tài khoản : ",
+    "Author": "Tác giả : Huy Ngo",
+    "File": "Tệp tin",
+    "NewFile": "Tạo tệp",
+    "OpenFile": "Mở tệp",
+    "Save": "Lưu tệp",
+    "SaveAs": "Lưu thành ...",
+    "ModelTabControl": "  Mô hình  ",
+    "ConcreteBeamDesignTabControl": "  Thiết kế dầm  ",
+    "ConcreteColumnDesignTabControl": "  Thiết kế cột  ",
+    "Connect": "Kết nối",
+    "ScanProcess": "Quét Process",
+
+    "InternalForceRibbonControl": "Nội lực",
+    "ExportDatabaseToExcelRibbonControl": "Xuất dữ liệu Excel",
+    "DataRibbonTab": "Dữ liệu",
+    "ReinforcementDesignRibbonTab": "Thiết kế thép chịu lực",
+    "CheckRibbonTab": "Kiểm tra",
+    "SettingRibbonTab": "Cài đặt",
+    "LongitudinalBarsRibbonControl": "Thép chủ",
+    "ConfinementBarsRibbonControl": "Thép đai",
+    "CheckTorsionRibbonControl": "Kiểm tra xoắn",
+    "CheckTorsionABendingRibbonControl": "Xoắn-Uốn",
+    "CheckTorsionAShearRibbonControl": "Xoắn-Cắt",
+    "CheckCrackingRibbonControl": "Nứt",
+    "CheckCurvatureRibbonControl": "Độ cong",
+    "SettingRibbonControl": "Cài đặt thông số"
+
   },
   "CurrentLanguage": {
-    "CurrentLang": "en"
+    "CurrentLang": "vn"
   }
 }

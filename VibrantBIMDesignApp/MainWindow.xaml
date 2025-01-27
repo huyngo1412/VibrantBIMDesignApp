@@ -38,6 +38,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="25"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="140"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
@@ -60,7 +61,23 @@
                 </MenuItem>
             </Menu>
         </DockPanel>
-        <Grid Margin="10,5,10,5" Grid.Row="3">
+        
+        <TabControl Margin="10,0,10,5" Grid.Row="2">
+
+            <TabItem Header="{Binding Source={StaticResource LanguageService}, Path=[ModelTabControl]}" 
+                     Style="{StaticResource TabItemStyle}">
+                
+            </TabItem>
+            <TabItem Header="{Binding Source={StaticResource LanguageService}, Path=[ConcreteBeamDesignTabControl]}"
+                     Style="{StaticResource TabItemStyle}" 
+                     >
+                <uc:BeamDesignUC></uc:BeamDesignUC>
+            </TabItem>
+            <TabItem Header="{Binding Source={StaticResource LanguageService}, Path=[ConcreteColumnDesignTabControl]}" 
+                     Style="{StaticResource TabItemStyle}"></TabItem>
+        </TabControl>
+
+        <Grid Margin="10,5,10,5" Grid.Row="4">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="100"></ColumnDefinition>
                 <ColumnDefinition Width="250"></ColumnDefinition>
@@ -114,36 +131,26 @@
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition Width="85"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <ListBox Name="Lb_ProcessFile" 
-                             ItemsSource="{Binding FileName}"
-                             Margin="2"
-                             SelectedItem="{Binding SelectedItem}"></ListBox>
+                     ItemsSource="{Binding FileName}"
+                     Margin="2"
+                     SelectedItem="{Binding SelectedItem}"></ListBox>
                     <StackPanel Orientation="Vertical" VerticalAlignment="Center" Grid.Column="1">
-                        <Button Margin="2" Style="{StaticResource Primary Button}" Height="25" Content="Kết nối" 
-                                Command="{Binding ConnectEtabsAPI}"
-                                CommandParameter="{Binding ElementName=Lb_ProcessFile,Path=SelectedItem}"></Button>
-                        <Button Margin="2" Style="{StaticResource Primary Button}" Height="25" Content="Tải dữ liệu"
-                                Command="{Binding ReLoadEtabsAPI}"></Button>
+                        <Button Margin="2" Style="{StaticResource Primary Button}" Height="25"
+                        Content="{Binding Source={StaticResource LanguageService}, Path=[Connect]}"  
+                        Command="{Binding ConnectEtabsAPI}"
+                        Width="85"
+                        CommandParameter="{Binding ElementName=Lb_ProcessFile,Path=SelectedItem}"></Button>
+                        <Button Margin="2" Style="{StaticResource Primary Button}" Height="25"
+                        Content="{Binding Source={StaticResource LanguageService}, Path=[ScanProcess]}" 
+                        Width="85"
+                        Command="{Binding ReLoadEtabsAPI}"></Button>
                     </StackPanel>
                 </Grid>
             </GroupBox>
         </Grid>
-        <TabControl Margin="10,0,10,5" Grid.Row="2">
-
-            <TabItem Header="{Binding Source={StaticResource LanguageService}, Path=[ModelTabControl]}" 
-                     Style="{StaticResource TabItemStyle}">
-                
-            </TabItem>
-            <TabItem Header="{Binding Source={StaticResource LanguageService}, Path=[ConcreteBeamDesignTabControl]}"
-                     Style="{StaticResource TabItemStyle}" 
-                     >
-                <uc:BeamDesignUC></uc:BeamDesignUC>
-            </TabItem>
-            <TabItem Header="{Binding Source={StaticResource LanguageService}, Path=[ConcreteColumnDesignTabControl]}" 
-                     Style="{StaticResource TabItemStyle}"></TabItem>
-        </TabControl>
     </Grid>
 </Window>
 

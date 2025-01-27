@@ -26,23 +26,6 @@ C:\Users\huy\OneDrive - The University of Technology\Demo\VibrantBIMDesignApp\Vi
 C:\Users\huy\OneDrive - The University of Technology\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp.pdb
 C:\Users\huy\OneDrive - The University of Technology\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp.genruntimeconfig.cache
 C:\Users\huy\OneDrive - The University of Technology\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\ref\VibrantBIMDesignApp.dll
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp.csproj.AssemblyReference.cache
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\ButtonStyle.baml
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\ComboboxStyle.baml
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\GroupBoxStyle.baml
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\StyleWindow.baml
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\TabControlStyle.baml
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\TextBlockStyle.baml
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\TextBoxStyle.baml
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\View\UCView\BeamDesignUC.g.cs
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\View\UCView\ControlBarUC.g.cs
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\View\WindowView\BeamSettingWindow.g.cs
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp_Content.g.cs
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp_MarkupCompile.cache
-C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp_MarkupCompile.lref
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\bin\Debug\net8.0-windows\VibrantBIMDesignApp.exe
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\bin\Debug\net8.0-windows\Resource\Language\Language.json
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\bin\Debug\net8.0-windows\VibrantBIMDesignApp.deps.json
@@ -68,6 +51,23 @@ C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\bin\Debug\ne
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\bin\Debug\net8.0-windows\runtimes\win7-x64\native\libuv.dll
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\bin\Debug\net8.0-windows\runtimes\win7-x86\native\libuv.dll
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\bin\Debug\net8.0-windows\ETABSv1.dll
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp.csproj.AssemblyReference.cache
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\ButtonStyle.baml
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\ComboboxStyle.baml
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\GroupBoxStyle.baml
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\StyleWindow.baml
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\TabControlStyle.baml
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\TextBlockStyle.baml
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\TextBoxStyle.baml
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\View\UCView\BeamDesignUC.g.cs
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\View\UCView\ControlBarUC.g.cs
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\View\WindowView\BeamSettingWindow.g.cs
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp_Content.g.cs
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp_MarkupCompile.cache
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp_MarkupCompile.lref
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\View\UCView\BeamDesignUC.baml
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\View\UCView\ControlBarUC.baml
@@ -84,3 +84,4 @@ C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\ne
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp.pdb
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\VibrantBIMDesignApp.genruntimeconfig.cache
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\ref\VibrantBIMDesignApp.dll
+C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\obj\Debug\net8.0-windows\Resource\Dictionary\RibbonControlStyle.baml

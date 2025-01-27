@@ -19,15 +19,15 @@
             
         </ResourceDictionary>
     </Window.Resources>
-    <Grid>
+    <Grid Height="auto">
         <Grid.RowDefinitions>
-            <RowDefinition Height="260"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>
         </Grid.RowDefinitions>
-        <GroupBox Style="{StaticResource Primary GroupBox}" Grid.Row="0" Grid.RowSpan="2" Margin="5">
+        <GroupBox Style="{StaticResource Primary GroupBox}" Grid.Row="0" Grid.RowSpan="3" Margin="5">
             <TextBlock Style="{StaticResource Primary TextBlock}" FontSize="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="5">Đơn vị : Mpa, mm</TextBlock>
         </GroupBox>
-        <StackPanel HorizontalAlignment="Center" Grid.Row="1" Orientation="Horizontal">
+        <StackPanel HorizontalAlignment="Center" Grid.Row="2" Orientation="Horizontal">
             <Button Margin="10,0,10,10" Width="80" Style="{StaticResource Secondary Button}">OK</Button>
             <Button Margin="10,0,10,10" Width="80" Style="{StaticResource Secondary Button}">Cancel</Button>
         </StackPanel>
@@ -131,7 +131,7 @@
             
             <TabItem Header="Thiết kế tự động" 
              Style="{StaticResource TabItemStyle}">
-                <Grid Height="auto">
+                <Grid >
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="auto"></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>
@@ -146,8 +146,10 @@
                         <RowDefinition Height="30"></RowDefinition>
                         <RowDefinition Height="30"></RowDefinition>
                         <RowDefinition Height="30"></RowDefinition>
-                        
+                        <RowDefinition Height="250"></RowDefinition>
+
                     </Grid.RowDefinitions>
+                    <Canvas Grid.Row="7" Background="Red" Grid.Column="0" Grid.ColumnSpan="4"></Canvas>
                     <TextBlock Text="Đặt tên PX/PY :" Grid.Row="0" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
                     <TextBlock Text="Đường kính thép chủ :" Grid.Row="1" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
                     <TextBlock Text="Đường kính thép đai :" Grid.Row="2" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>

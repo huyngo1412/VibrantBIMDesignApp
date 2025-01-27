@@ -30,6 +30,9 @@
     <Page Update="Resource\Dictionary\GroupBoxStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Resource\Dictionary\RibbonControlStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Resource\Dictionary\StyleWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

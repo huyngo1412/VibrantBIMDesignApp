@@ -7,7 +7,7 @@
              mc:Ignorable="d" Background="Transparent"
              xmlns:ribbon="clr-namespace:System.Windows.Controls.Ribbon;assembly=System.Windows.Controls.Ribbon"
              xmlns:Language="clr-namespace:VibrantBIMDesignApp.Languages"
-             d:DesignHeight="760" d:DesignWidth="1260">
+              d:DesignWidth="1260">
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -15,6 +15,7 @@
                     <Language:LanguageService x:Key="LanguageService"></Language:LanguageService>
                 </ResourceDictionary>
                 <ResourceDictionary Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Dictionary/StyleWindow.xaml"></ResourceDictionary>
+               
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
@@ -23,9 +24,9 @@
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid Background="#FFF3F3F3">
+        <Grid Background="Transparent">
             <Grid.RowDefinitions>
-                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="75"></RowDefinition>
                 <RowDefinition Height="25"></RowDefinition>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -41,119 +42,122 @@
                                     Grid.Column="0">
                 <Button Style="{StaticResource Secondary Ribbon Button}" Margin="0,5,0,0"
                                     >
-                    <StackPanel Orientation="Horizontal" Width="130">
+                    <StackPanel Style="{StaticResource Secondary RibbonControl }">
                         <Image Width="25" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
-                        <TextBlock Text="Nội lực"
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[InternalForceRibbonControl]}"
                                                HorizontalAlignment="Left"></TextBlock>
                     </StackPanel>
                 </Button>
                 <Button  Style="{StaticResource Secondary Ribbon Button}" Margin="0,5,0,0"
                                       >
-                    <StackPanel Orientation="Horizontal" Width="130">
+                    <StackPanel Style="{StaticResource Secondary RibbonControl }">
                         <Image Width="25" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
-                        <TextBlock Text="Xuất Excel"></TextBlock>
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[ExportDatabaseToExcelRibbonControl]}"></TextBlock>
                     </StackPanel>
                 </Button>
                 <Button  Style="{StaticResource Secondary Ribbon Button}" Margin="0,5,0,0"
           >
-                    <StackPanel Orientation="Horizontal" Width="130">
+                    <StackPanel Style="{StaticResource Secondary RibbonControl }">
                         <Image Width="25" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
                         <TextBlock Text="Etabs -> Revit"></TextBlock>
                     </StackPanel>
                 </Button>
             </StackPanel>
-            <TextBlock Style="{StaticResource RibbonTab TextBlock}" Margin="0,5,0,0" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">Dữ liệu</TextBlock>
+            <TextBlock Style="{StaticResource RibbonTab TextBlock}" Margin="0,5,0,0" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"
+                       Text="{Binding Source={StaticResource LanguageService}, Path=[DataRibbonTab]}"></TextBlock>
             <Grid Grid.Column="1" Grid.RowSpan="2" Width="1" Background="#FFA7A7A7"></Grid>
 
             <StackPanel Grid.Row="0"
                           Grid.Column="2" Orientation="Horizontal">
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
                         >
-                    <StackPanel Orientation="Vertical" Height="70">
+                    <StackPanel Style="{StaticResource Primary RibbonControl }">
                         <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
-                        <TextBlock Text="Thép chủ"
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[LongitudinalBarsRibbonControl]}"
                                      HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
                 </Button>
-                <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
->
-                    <StackPanel Orientation="Vertical" Height="70">
+                <Button Style="{StaticResource Secondary Ribbon Button}" Height="75">
+                    <StackPanel Style="{StaticResource Primary RibbonControl }">
                         <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
-                        <TextBlock Text="Thép đai"
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[ConfinementBarsRibbonControl]}"
                                     HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
                 </Button>
-                <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
+                <!--<Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
 >
-                    <StackPanel Orientation="Vertical" Height="70">
+                    --><!--<StackPanel Orientation="Vertical" Height="70">
                         <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
                         <TextBlock Text="Tổng thể" TextWrapping="Wrap" Width="50"
                                     HorizontalAlignment="Center"></TextBlock>
-                    </StackPanel>
-                </Button>
+                    </StackPanel>--><!--
+                </Button>-->
             </StackPanel>
-            <TextBlock Style="{StaticResource RibbonTab TextBlock}" Margin="0,5,0,0" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">Thiết kế thép</TextBlock>
+            <TextBlock Style="{StaticResource RibbonTab TextBlock}" Margin="0,5,0,0" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"
+                       Text="{Binding Source={StaticResource LanguageService}, Path=[ReinforcementDesignRibbonTab]}"></TextBlock>
             <Grid Grid.Column="3" Grid.RowSpan="2" Width="1" Background="#FFA7A7A7"></Grid>
  
             <StackPanel Grid.Row="0"
                           Grid.Column="4" Orientation="Horizontal">
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
 >
-                    <StackPanel Orientation="Vertical" Height="70">
+                    <StackPanel Style="{StaticResource Primary RibbonControl }">
                         <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
-                        <TextBlock Text="Xoắn"
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[CheckTorsionRibbonControl]}"
                                     HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
                 </Button>
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
 >
-                    <StackPanel Orientation="Vertical" Height="70">
+                    <StackPanel Style="{StaticResource Primary RibbonControl }">
                         <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
-                        <TextBlock Text="Xoắn - Uốn"
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[CheckTorsionABendingRibbonControl]}"
                                     HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
                 </Button>
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
 >
-                    <StackPanel Orientation="Vertical" Height="70">
+                    <StackPanel Style="{StaticResource Primary RibbonControl }">
                         <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
-                        <TextBlock Text="Xoắn - Cắt"
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[CheckTorsionAShearRibbonControl]}"
                                     HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
                 </Button>
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
                           >
-                    <StackPanel Orientation="Vertical" Height="70">
+                    <StackPanel Style="{StaticResource Primary RibbonControl }">
                         <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
-                        <TextBlock Text="Vết nứt"
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[CheckCrackingRibbonControl]}"
                                      HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
                 </Button>
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
 >
-                    <StackPanel Orientation="Vertical" Height="70">
+                    <StackPanel Style="{StaticResource Primary RibbonControl }">
                         <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
-                        <TextBlock Text="Độ cong"
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[CheckCurvatureRibbonControl]}"
                                     HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
                 </Button>
                 
             </StackPanel>
-            <TextBlock Style="{StaticResource RibbonTab TextBlock}" Margin="0,5,0,0" Grid.Row="1" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center">Kiểm tra</TextBlock>
+            <TextBlock Style="{StaticResource RibbonTab TextBlock}" Margin="0,5,0,0" Grid.Row="1" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center"
+                       Text="{Binding Source={StaticResource LanguageService}, Path=[CheckRibbonTab]}"></TextBlock>
             <Grid Grid.Column="5" Grid.RowSpan="2" Width="1" Background="#FFA7A7A7"></Grid>
 
             <StackPanel Grid.Row="0"
                           Grid.Column="6" Orientation="Horizontal">
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
                         Command="{Binding BeamSetting}">
-                    <StackPanel Orientation="Vertical" Height="70">
+                    <StackPanel Style="{StaticResource Primary RibbonControl }">
                         <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
-                        <TextBlock Text="Cài đặt thông số" 
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[SettingRibbonControl]}"
                                      HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
                 </Button>
             </StackPanel>
-            <TextBlock Style="{StaticResource RibbonTab TextBlock}" Margin="0,5,0,0" Grid.Row="1" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Center">Cài đặt</TextBlock>
+            <TextBlock Style="{StaticResource RibbonTab TextBlock}" Margin="0,5,0,0" Grid.Row="1" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Center"
+                       Text="{Binding Source={StaticResource LanguageService}, Path=[SettingRibbonTab]}"></TextBlock>
 
         </Grid>
     </Grid>

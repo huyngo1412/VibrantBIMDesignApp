@@ -55,7 +55,7 @@
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="#FF929292" />
+                            <Setter Property="Background" Value="LightGray" />
                             <Setter Property="FontWeight" Value="Medium" />
                         </Trigger>
                         <Trigger Property="IsPressed" Value="True">
@@ -85,7 +85,7 @@
                 </Border>
                 <ControlTemplate.Triggers>
                     <Trigger Property="IsMouseOver" Value="True">
-                        <Setter Property="Background" Value="#FF929292" />
+                            <Setter Property="Background" Value="LightGray" />
                         <Setter Property="FontWeight" Value="Medium" />
                     </Trigger>
 
@@ -119,12 +119,12 @@
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="#FF929292" />
+                            <Setter Property="Background" Value="LightGray" />
                             <Setter Property="FontWeight" Value="Medium" />
                         </Trigger>
 
                         <Trigger Property="IsPressed" Value="True">
-                            <Setter Property="Background" Value="#A9A9A9" />
+                            <Setter Property="Background" Value="LightGray" />
                             <Setter Property="FontWeight" Value="Medium" />
                         </Trigger>
                         <Trigger Property="IsEnabled" Value="False">

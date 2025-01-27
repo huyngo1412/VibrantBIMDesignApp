@@ -52,6 +52,11 @@
                 <Image Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"/>
             </Button>
             <Button Style="{StaticResource ControlBar Button}" Width="25"
+        Command="{Binding MiniMizeWindowCommand}"
+        CommandParameter="{Binding ElementName=ControlBarView}">
+                <Image Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Maximized.png"/>
+            </Button>
+            <Button Style="{StaticResource ControlBar Button}" Width="25"
                     Command="{Binding CloseWindowCommand}"
                     CommandParameter="{Binding ElementName=ControlBarView}"
                     >

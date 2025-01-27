@@ -10,7 +10,25 @@
     "SaveAs": "Save As ...",
     "ModelTabControl": "  Model  ",
     "ConcreteBeamDesignTabControl": "  Concrete Beam Design  ",
-    "ConcreteColumnDesignTabControl": "  Concrete Column Design  "
+    "ConcreteColumnDesignTabControl": "  Concrete Column Design  ",
+    "Connect": "Connect",
+    "ScanProcess": "Scan Process",
+
+    "InternalForceRibbonControl": "Internal Force",
+    "ExportDatabaseToExcelRibbonControl": "Export to Excel file",
+    "DataRibbonTab": "Data",
+    "ReinforcementDesignRibbonTab": "Reinforcement Design",
+    "CheckRibbonTab": "Check",
+    "SettingRibbonTab": "Setting",
+    "LongitudinalBarsRibbonControl": "Longitudinal Bars",
+    "ConfinementBarsRibbonControl": "Confinement Bars",
+    "CheckTorsionRibbonControl": "Torsion",
+    "CheckTorsionABendingRibbonControl": "Torsion-Bending",
+    "CheckTorsionAShearRibbonControl": "Torsion-Shear",
+    "CheckCrackingRibbonControl": "Crack",
+    "CheckCurvatureRibbonControl": "Curvature",
+    "SettingRibbonControl": "Set Parameters"
+
   },
   "vn": {
     "Login": "Đăng nhập",
@@ -23,7 +41,25 @@
     "SaveAs": "Lưu thành ...",
     "ModelTabControl": "  Mô hình  ",
     "ConcreteBeamDesignTabControl": "  Thiết kế dầm  ",
-    "ConcreteColumnDesignTabControl": "  Thiết kế cột  "
+    "ConcreteColumnDesignTabControl": "  Thiết kế cột  ",
+    "Connect": "Kết nối",
+    "ScanProcess": "Quét Process",
+
+    "InternalForceRibbonControl": "Nội lực",
+    "ExportDatabaseToExcelRibbonControl": "Xuất dữ liệu Excel",
+    "DataRibbonTab": "Dữ liệu",
+    "ReinforcementDesignRibbonTab": "Thiết kế thép chịu lực",
+    "CheckRibbonTab": "Kiểm tra",
+    "SettingRibbonTab": "Cài đặt",
+    "LongitudinalBarsRibbonControl": "Thép chủ",
+    "ConfinementBarsRibbonControl": "Thép đai",
+    "CheckTorsionRibbonControl": "Kiểm tra xoắn",
+    "CheckTorsionABendingRibbonControl": "Xoắn-Uốn",
+    "CheckTorsionAShearRibbonControl": "Xoắn-Cắt",
+    "CheckCrackingRibbonControl": "Nứt",
+    "CheckCurvatureRibbonControl": "Độ cong",
+    "SettingRibbonControl": "Cài đặt thông số"
+
   },
   "CurrentLanguage": {
     "CurrentLang": "vn"
