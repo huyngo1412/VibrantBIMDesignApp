@@ -4,11 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VibrantBIMDesignApp"
-        xmlns:uc ="clr-namespace:VibrantBIMDesignApp.View.UCView"
+        xmlns:uc="clr-namespace:VibrantBIMDesignApp.View.UCView"
+        xmlns:Language="clr-namespace:VibrantBIMDesignApp.Languages"
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         mc:Ignorable="d"
         Name ="MainWindowApp"
         WindowStyle="None" 
+        WindowState="Maximized"
         Title="VibrantBIM Design Application" Height="950" Width="1280"
         Background="#FFEAEAEA"
         WindowStartupLocation="CenterScreen"
@@ -18,26 +20,47 @@
             <i:InvokeCommandAction Command="{Binding LoadAPIEtabs}"/>
         </i:EventTrigger>
     </i:Interaction.Triggers>-->
-
+    <Window.InputBindings>
+        <KeyBinding Key="S" Modifiers="Control" Command="{Binding SaveCommand}" />
+    </Window.InputBindings>
 
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Dictionary/StyleWindow.xaml"></ResourceDictionary>
+                <ResourceDictionary>
+                    <Language:LanguageService x:Key="LanguageService"></Language:LanguageService>
+                </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
-
         </ResourceDictionary>
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <uc:ControlBarUC></uc:ControlBarUC>
         </Grid>
-        <Grid Margin="10,5,10,5" Grid.Row="1">
+        <DockPanel Margin="5,0,0,0" Grid.Row="1" Height="20">
+            <Menu DockPanel.Dock="Top" Background="Transparent">
+                <MenuItem Header="{Binding Source={StaticResource LanguageService}, Path=[File]}">
+                    <MenuItem Header="{Binding Source={StaticResource LanguageService}, Path=[OpenFile]}"></MenuItem>
+                    <MenuItem Header="{Binding Source={StaticResource LanguageService}, Path=[NewFile]}"></MenuItem>
+                    <MenuItem Header="{Binding Source={StaticResource LanguageService}, Path=[Save]}"></MenuItem>
+                    <MenuItem Header="{Binding Source={StaticResource LanguageService}, Path=[SaveAs]}"></MenuItem>
+                </MenuItem> 
+                <MenuItem Header="Edit">
+                    <MenuItem Header="_Update Model Etabs"></MenuItem>
+                    <MenuItem Header="_New File"></MenuItem>
+                    <MenuItem Header="_Save"></MenuItem>
+                    <MenuItem Header="_Save As"></MenuItem>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        <Grid Margin="10,5,10,5" Grid.Row="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="100"></ColumnDefinition>
                 <ColumnDefinition Width="250"></ColumnDefinition>
@@ -46,29 +69,29 @@
 
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="75"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
                 <RowDefinition Height="75"></RowDefinition>
             </Grid.RowDefinitions>
             <GroupBox Style="{StaticResource Primary GroupBox}" Margin="0,0,0,-1" >
                 <Grid>
-                    <Ellipse Stroke="#FF48ADED" StrokeThickness="0.5" Fill="White" Width="75" Height="70"></Ellipse>
+                    <Ellipse Stroke="#FF48ADED" StrokeThickness="0.5" Fill="White" Width="40" Height="40"></Ellipse>
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-                        <TextBlock Text="Vibrant" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                        <TextBlock Text="BIM" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FF35A3DC"></TextBlock>
+                        <TextBlock Text="Vibrant" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="6.5"></TextBlock>
+                        <TextBlock Text="BIM" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="6.5" FontWeight="Medium" Foreground="#FF35A3DC"></TextBlock>
                     </StackPanel>
                 </Grid>
             </GroupBox>
             <GroupBox Style="{StaticResource Primary GroupBox}" Grid.Row="0" Grid.Column="1" Margin="-1,0,0,-1">
                 <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="VibrantBIM Structural Design V25.01" VerticalAlignment="Center"  HorizontalAlignment="Left"></TextBlock>
-                    <TextBlock Text="Tác giả : Huy Ngo" VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Medium" Foreground="#FF35A3DC"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[Author]}"  VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Medium" Foreground="#FF35A3DC"></TextBlock>
                     <TextBlock Text="Email : huyngo14122002@gmail.com" VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Medium" Foreground="#FF35A3DC"></TextBlock>
                 </StackPanel>
             </GroupBox>
             <GroupBox Style="{StaticResource Primary GroupBox}" Grid.Row="0" Grid.Column="2" Margin="-1,0,0,-1">
                 <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                        <TextBlock Text="Tài khoản : " VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Medium"></TextBlock>
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[UserName]}"  VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Medium"></TextBlock>
                         <TextBlock Text="Tên tài khoản" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
@@ -109,15 +132,16 @@
         </Grid>
         <TabControl Margin="10,0,10,5" Grid.Row="2">
 
-            <TabItem Header="Mô hình" 
+            <TabItem Header="{Binding Source={StaticResource LanguageService}, Path=[ModelTabControl]}" 
                      Style="{StaticResource TabItemStyle}">
                 
             </TabItem>
-            <TabItem Header="Thiết kế dầm" 
-                     Style="{StaticResource TabItemStyle}" HorizontalAlignment="Center" VerticalAlignment="Stretch">
+            <TabItem Header="{Binding Source={StaticResource LanguageService}, Path=[ConcreteBeamDesignTabControl]}"
+                     Style="{StaticResource TabItemStyle}" 
+                     >
                 <uc:BeamDesignUC></uc:BeamDesignUC>
             </TabItem>
-            <TabItem Header="Thiết kế cột" 
+            <TabItem Header="{Binding Source={StaticResource LanguageService}, Path=[ConcreteColumnDesignTabControl]}" 
                      Style="{StaticResource TabItemStyle}"></TabItem>
         </TabControl>
     </Grid>

@@ -13,6 +13,13 @@
     <None Remove="Resource\Icon\Logo.png" />
     <None Remove="Resource\Icon\LogoVibrantBIM.png" />
     <None Remove="Resource\Icon\Minimize.png" />
+    <None Remove="Resource\Language\Language.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resource\Language\Language.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MvvmLight" Version="5.4.1.1" />
     <PackageReference Include="RibbonControlsLibrary" Version="4.0.0" />
     <PackageReference Include="System.Windows.Interactivity.WPF" Version="2.0.20525" />
   </ItemGroup>

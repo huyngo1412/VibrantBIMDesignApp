@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VibrantBIMDesignApp.View.WindowView"
         mc:Ignorable="d"
-        Title="Beam Setting " Height="auto" Width="650"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        Title="Beam Setting " Height="auto" Width="auto"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
+        SizeToContent="WidthAndHeight"
     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
     <Window.Resources>
         <ResourceDictionary>
@@ -23,7 +25,7 @@
             <RowDefinition Height="40"></RowDefinition>
         </Grid.RowDefinitions>
         <GroupBox Style="{StaticResource Primary GroupBox}" Grid.Row="0" Grid.RowSpan="2" Margin="5">
-            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="5">Đơn vị : Mpa, mm</TextBlock>
+            <TextBlock Style="{StaticResource Primary TextBlock}" FontSize="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="5">Đơn vị : Mpa, mm</TextBlock>
         </GroupBox>
         <StackPanel HorizontalAlignment="Center" Grid.Row="1" Orientation="Horizontal">
             <Button Margin="10,0,10,10" Width="80" Style="{StaticResource Secondary Button}">OK</Button>
@@ -33,12 +35,13 @@
             
             <TabItem Header="Vật liệu" 
              Style="{StaticResource TabItemStyle}">
-                <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Width="600" Height="auto">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <GroupBox  Grid.Column="0" Margin="10" Header="Bê tông" FontSize="14">
+                    <GroupBox  Grid.Column="0" Margin="10,10,10,0" Header="Bê tông" FontSize="14">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="100"></ColumnDefinition>
@@ -69,10 +72,14 @@
 
                             <ComboBox Grid.Column="1" Grid.Row="0" Style="{StaticResource Primary Combobox}"></ComboBox>
                             <TextBox Grid.Column="1" Grid.Row="1" Style="{StaticResource Primary TextBox}"></TextBox>
+                            <TextBox Grid.Column="1" Grid.Row="2" Style="{StaticResource Primary TextBox}"></TextBox>
+                            <TextBox Grid.Column="1" Grid.Row="3" Style="{StaticResource Primary TextBox}"></TextBox>
+                            <TextBox Grid.Column="1" Grid.Row="4" Style="{StaticResource Primary TextBox}"></TextBox>
+
                         </Grid>
                     </GroupBox>
 
-                    <GroupBox  Grid.Column="1" Margin="10" Header="Bê tông" FontSize="14">
+                    <GroupBox Style="{StaticResource GroupBoxStyle1}" Grid.Column="1" Margin="10,10,10,0" Header="Thép chủ" FontSize="14">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="100"></ColumnDefinition>
@@ -84,19 +91,23 @@
                                 <RowDefinition Height="30"></RowDefinition>
                                 <RowDefinition Height="30"></RowDefinition>
                                 <RowDefinition Height="30"></RowDefinition>
-
+                                <RowDefinition Height="30"></RowDefinition>
                             </Grid.RowDefinitions>
                             <TextBlock Grid.Row="0" Style="{StaticResource Primary TextBlock}">Cấp độ bền</TextBlock>
                             <TextBlock Grid.Row="1" Style="{StaticResource Primary TextBlock}">
             <Run Text="R" />
-            <Run Text="b" BaselineAlignment="Subscript" FontSize="10" />
+            <Run Text="s,n" BaselineAlignment="Subscript" FontSize="10" />
                             </TextBlock>
                             <TextBlock Grid.Row="2" Style="{StaticResource Primary TextBlock}">
             <Run Text="R" />
-            <Run Text="bt" BaselineAlignment="Subscript" FontSize="10" />
+            <Run Text="sc" BaselineAlignment="Subscript" FontSize="10" />
                             </TextBlock>
-                            <TextBlock Grid.Row="3" Style="{StaticResource Primary TextBlock}">E</TextBlock>
-                            <TextBlock Grid.Row="4" Style="{StaticResource Primary TextBlock}">
+                            <TextBlock Grid.Row="3" Style="{StaticResource Primary TextBlock}">
+<Run Text="R" />
+<Run Text="s" BaselineAlignment="Subscript" FontSize="10" />
+                            </TextBlock>
+                            <TextBlock Grid.Row="4" Style="{StaticResource Primary TextBlock}">E</TextBlock>
+                            <TextBlock Grid.Row="5" Style="{StaticResource Primary TextBlock}">
             <Run Text="&#x03B3;" BaselineAlignment="Superscript"></Run>
             <Run Text="b" BaselineAlignment="Center"  FontSize="10" />
                             </TextBlock>
@@ -120,7 +131,7 @@
             
             <TabItem Header="Thiết kế tự động" 
              Style="{StaticResource TabItemStyle}">
-                <Grid>
+                <Grid Height="auto">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="auto"></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>

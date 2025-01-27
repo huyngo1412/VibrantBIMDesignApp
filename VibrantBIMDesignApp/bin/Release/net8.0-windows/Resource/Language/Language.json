@@ -1,0 +1,18 @@
+{
+  "en": {
+    "File": "File",
+    "NewFile": "New File",
+    "OpenFile": "Open File",
+    "Save": "Save",
+    "SaveAs": "Save As ...",
+
+    "Design": "Design"
+  },
+  "vn": {
+    "File": "Tệp tin",
+    "NewFile": "Tạo tệp",
+    "OpenFile": "Mở tệp",
+    "Save": "Lưu tệp",
+    "SaveAs": "Lưu thành ..."
+  }
+}

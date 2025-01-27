@@ -1,0 +1,31 @@
+{
+  "en": {
+    "Login": "Login",
+    "UserName": "User Name : ",
+    "Author": "Author : Huy Ngo",
+    "File": "File",
+    "NewFile": "New File",
+    "OpenFile": "Open File",
+    "Save": "Save",
+    "SaveAs": "Save As ...",
+    "ModelTabControl": "  Model  ",
+    "ConcreteBeamDesignTabControl": "  Concrete Beam Design  ",
+    "ConcreteColumnDesignTabControl": "  Concrete Column Design  "
+  },
+  "vn": {
+    "Login": "Đăng nhập",
+    "UserName": "Tên tài khoản : ",
+    "Author": "Tác giả : Huy Ngo",
+    "File": "Tệp tin",
+    "NewFile": "Tạo tệp",
+    "OpenFile": "Mở tệp",
+    "Save": "Lưu tệp",
+    "SaveAs": "Lưu thành ...",
+    "ModelTabControl": "  Mô hình  ",
+    "ConcreteBeamDesignTabControl": "  Thiết kế dầm  ",
+    "ConcreteColumnDesignTabControl": "  Thiết kế cột  "
+  },
+  "CurrentLanguage": {
+    "CurrentLang": "vn"
+  }
+}

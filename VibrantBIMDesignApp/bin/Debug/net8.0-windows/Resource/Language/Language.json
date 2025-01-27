@@ -1,0 +1,31 @@
+{
+  "en": {
+    "Login": "Login",
+    "UserName": "User Name : ",
+    "Author": "Author : Huy Ngo",
+    "File": "File",
+    "NewFile": "New File",
+    "OpenFile": "Open File",
+    "Save": "Save",
+    "SaveAs": "Save As ...",
+    "ModelTabControl": "  Model  ",
+    "ConcreteBeamDesignTabControl": "  Concrete Beam Design  ",
+    "ConcreteColumnDesignTabControl": "  Concrete Column Design  "
+  },
+  "vn": {
+    "Login": "\u0110\u0103ng nh\u1EADp",
+    "UserName": "T\u00EAn t\u00E0i kho\u1EA3n : ",
+    "Author": "T\u00E1c gi\u1EA3 : Huy Ngo",
+    "File": "T\u1EC7p tin",
+    "NewFile": "T\u1EA1o t\u1EC7p",
+    "OpenFile": "M\u1EDF t\u1EC7p",
+    "Save": "L\u01B0u t\u1EC7p",
+    "SaveAs": "L\u01B0u th\u00E0nh ...",
+    "ModelTabControl": "  M\u00F4 h\u00ECnh  ",
+    "ConcreteBeamDesignTabControl": "  Thi\u1EBFt k\u1EBF d\u1EA7m  ",
+    "ConcreteColumnDesignTabControl": "  Thi\u1EBFt k\u1EBF c\u1ED9t  "
+  },
+  "CurrentLanguage": {
+    "CurrentLang": "en"
+  }
+}

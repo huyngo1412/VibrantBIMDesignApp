@@ -1,7 +1,11 @@
 ﻿using ETABSv1;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Diagnostics;
+using System.IO;
+using System.Windows;
 using System.Windows.Input;
+using VibrantBIMDesignApp.Languages;
 using VibrantBIMDesignApp.View.WindowView;
 
 namespace VibrantBIMDesignApp.ViewModel
@@ -70,12 +74,10 @@ namespace VibrantBIMDesignApp.ViewModel
                 _notifications = value;
             }
         }
-        
-
         public ICommand ReLoadEtabsAPI { get; set; }
         public ICommand ConnectEtabsAPI { get; set; }
         public ICommand BeamSetting { get; set; }
-        
+        public ICommand SaveCommand { get; set; }
 
         public MainViewModel()
         {
@@ -146,6 +148,10 @@ namespace VibrantBIMDesignApp.ViewModel
                 BeamSettingWindow beamSettingWindow = new BeamSettingWindow();
                 beamSettingWindow.Show();
             });
+            SaveCommand = new RelayCommand<object>((p) => true, (p) => {
+                MessageBox.Show("Dữ liệu sẽ được lưu");
+            });
         }
+
     }
 }

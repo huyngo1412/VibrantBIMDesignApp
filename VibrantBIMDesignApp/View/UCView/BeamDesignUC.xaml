@@ -6,11 +6,14 @@
              xmlns:local="clr-namespace:VibrantBIMDesignApp.View.UCView"
              mc:Ignorable="d" Background="Transparent"
              xmlns:ribbon="clr-namespace:System.Windows.Controls.Ribbon;assembly=System.Windows.Controls.Ribbon"
-
+             xmlns:Language="clr-namespace:VibrantBIMDesignApp.Languages"
              d:DesignHeight="760" d:DesignWidth="1260">
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <Language:LanguageService x:Key="LanguageService"></Language:LanguageService>
+                </ResourceDictionary>
                 <ResourceDictionary Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Dictionary/StyleWindow.xaml"></ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

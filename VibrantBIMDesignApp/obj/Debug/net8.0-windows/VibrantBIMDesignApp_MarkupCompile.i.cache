@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\huy\Documents\Demo\VibrantBIMDesignApp\VibrantBIMDesignApp\App.xaml
-11-1815837186
-
-17-520037356
-202-2084464109
-MainWindow.xaml;Resource\Dictionary\ButtonStyle.xaml;Resource\Dictionary\ComboboxStyle.xaml;Resource\Dictionary\GroupBoxStyle.xaml;Resource\Dictionary\StyleWindow.xaml;Resource\Dictionary\TabControlStyle.xaml;Resource\Dictionary\TextBlockStyle.xaml;Resource\Dictionary\TextBoxStyle.xaml;View\UCView\BeamDesignUC.xaml;View\UCView\ControlBarUC.xaml;View\WindowVIew\BeamSettingWindow.xaml;
+11-295525795
+11230969717
+18-1267643392
+206-462396238
+MainWindow.xaml;Resource\Dictionary\ButtonStyle.xaml;Resource\Dictionary\ComboboxStyle.xaml;Resource\Dictionary\GroupBoxStyle.xaml;Resource\Dictionary\StyleWindow.xaml;Resource\Dictionary\TabControlStyle.xaml;Resource\Dictionary\TextBlockStyle.xaml;Resource\Dictionary\TextBoxStyle.xaml;View\UCView\BeamDesignUC.xaml;View\UCView\ControlBarUC.xaml;View\WindowView\BeamSettingWindow.xaml;
 
 True
 

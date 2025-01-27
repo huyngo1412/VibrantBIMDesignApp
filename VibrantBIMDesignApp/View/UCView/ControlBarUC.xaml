@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:VibrantBIMDesignApp.View.UCView"
              xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
-
+             xmlns:Language="clr-namespace:VibrantBIMDesignApp.Languages"
              mc:Ignorable="d" 
              Name="ControlBarView"
              Background="#FFEAEAEA"
@@ -17,7 +17,14 @@
 </i:Interaction.Triggers>
 
     <UserControl.Resources>
-        <ResourceDictionary Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Dictionary/StyleWindow.xaml"></ResourceDictionary>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Dictionary/StyleWindow.xaml"></ResourceDictionary>
+                <ResourceDictionary>
+                    <Language:LanguageService x:Key="LanguageService"></Language:LanguageService>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </UserControl.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
@@ -26,9 +33,19 @@
         </Grid.ColumnDefinitions>
         <TextBlock Margin="15,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left"  Style="{StaticResource Account Name TextBlock}" Text="VibrantBIM Structural Design" FontWeight="SemiBold"></TextBlock>
         <StackPanel Orientation="Horizontal" Margin="0,0,2.5,0" Grid.Column="1" HorizontalAlignment="Right">
-            <TextBlock Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Left"  Style="{StaticResource Account Name TextBlock}" Text="Tên tài khoản"></TextBlock>
-            <Button Margin="0,0,5,0" Style="{StaticResource ControlBar Button}" Content="Đăng nhập">
+            <TextBlock Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Left"  Style="{StaticResource Account Name TextBlock}" ></TextBlock>
+            <Button Margin="0,0,5,0" Style="{StaticResource ControlBar Button}" Content="{Binding Source={StaticResource LanguageService}, Path=[Login]}" >
             </Button>
+            <ComboBox Width="50" Style="{StaticResource Primary Combobox}"
+                      ItemsSource="{Binding AvailableLanguages}"
+                      SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}"
+                      Name="Cb_Language">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="SelectionChanged">
+                        <i:InvokeCommandAction Command="{Binding SelectionLanguageCommand}" CommandParameter="{Binding ElementName=ControlBarView}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ComboBox>
             <Button Style="{StaticResource ControlBar Button}" Width="25"
                     Command="{Binding MiniMizeWindowCommand}"
                     CommandParameter="{Binding ElementName=ControlBarView}">
