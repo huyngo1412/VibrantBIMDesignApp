@@ -21,14 +21,25 @@
     "CheckRibbonTab": "Check",
     "SettingRibbonTab": "Setting",
     "LongitudinalBarsRibbonControl": "Longitudinal Bars",
-    "ConfinementBarsRibbonControl": "Confinement Bars",
+    "ConfinementBarsRibbonControl": "Confinement Bars(Ties)",
     "CheckTorsionRibbonControl": "Torsion",
     "CheckTorsionABendingRibbonControl": "Torsion-Bending",
     "CheckTorsionAShearRibbonControl": "Torsion-Shear",
     "CheckCrackingRibbonControl": "Crack",
     "CheckCurvatureRibbonControl": "Curvature",
-    "SettingRibbonControl": "Set Parameters"
+    "SettingRibbonControl": "Set Parameters",
 
+    "Material" : "Material",
+    "AssignNamePXPY": "Assign Name PX/PY",
+    "LongitudinalBarDiameter": "Longitudinal Bars Diameter (1)",
+    "ConfinementBarDiameter": "Confinement Bars Diameter (2)",
+    "StirrupSpacing": "Stirrup Spacing (3)",
+    "MinimumClearSpacingBetweenRebar": "Minimum Clear Spacing Between Rebar (4)",
+    "SideReinforcement": "Side Reinforcement for beams with depth(H) greater than (5) H >=",
+    "MinimumReinforcementRatio": "Minium Reinforement Ratio (%)",
+    "SteelCutting": "Steel cutting for beams with a length greater than (6) L>=",
+    "SafetyFactor": "Safety Factor (Mu/M)",
+    "RebarCover" : "Rebar Cover (7)"
   },
   "vn": {
     "Login": "Đăng nhập",
@@ -58,7 +69,19 @@
     "CheckTorsionAShearRibbonControl": "Xoắn-Cắt",
     "CheckCrackingRibbonControl": "Nứt",
     "CheckCurvatureRibbonControl": "Độ cong",
-    "SettingRibbonControl": "Cài đặt thông số"
+    "SettingRibbonControl": "Cài đặt thông số",
+
+    "Material": "Vật liệu",
+    "AssignNamePXPY": "Đặt tên PX/PY",
+    "LongitudinalBarDiameter": "Đường kính thép chủ (1)",
+    "ConfinementBarDiameter": "Đường kính thép đai (2)",
+    "StirrupSpacing": "Khoảng cách thép đai (3)",
+    "MinimumClearSpacingBetweenRebar": "Khoảng cách thông thủy (4)",
+    "SideReinforcement": "Đặt thép giá khi chiều cao dầm lớn hơn (5) H >=",
+    "MinimumReinforcementRatio": "Hàm lượng cốt thép tối thiểu (%)",
+    "SteelCutting": "Cắt thép dầm khi chiều dài dầm lớn hơn (6) L>=",
+    "SafetyFactor": "Hệ số an toàn (Mu/M)",
+    "RebarCover": "Lớp bê tông bảo vệ (7)"
 
   },
   "CurrentLanguage": {

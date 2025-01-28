@@ -3,16 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\view\\windowview\\beamsettingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\view\\windowview\\beamsettingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\language\\language.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\language\\language.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\view\\windowview\\beamsettingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\view\\windowview\\beamsettingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\view\\ucview\\beamdesignuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\view\\ucview\\beamdesignuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\library\\drawannotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\library\\drawannotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\dictionary\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\dictionary\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\icon\\close.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\icon\\close.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\viewmodel\\beamsettingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\viewmodel\\beamsettingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\viewmodel\\columndesignviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\viewmodel\\columndesignviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\view\\windowview\\beamsettingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\view\\windowview\\beamsettingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\view\\ucview\\controlbaruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\view\\ucview\\controlbaruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\viewmodel\\controlbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\viewmodel\\controlbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\icon\\setting.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\icon\\setting.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\icon\\torsionstrength.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\icon\\torsionstrength.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\icon\\logovibrantbim.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\icon\\logovibrantbim.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\icon\\revit.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\icon\\revit.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\dictionary\\ribboncontrolstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -35,14 +91,6 @@
       "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\icon\\minimize.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\view\\ucview\\controlbaruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\view\\ucview\\controlbaruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\view\\ucview\\beamdesignuc.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\view\\ucview\\beamdesignuc.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
@@ -51,20 +99,8 @@
       "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\languages\\languageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\dictionary\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\dictionary\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\icon\\close.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\icon\\close.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\icon\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\icon\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\icon\\logovibrantbim.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\icon\\logovibrantbim.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,24 +115,8 @@
       "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\resource\\dictionary\\textblockstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\resource\\dictionary\\textblockstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\viewmodel\\controlbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\viewmodel\\controlbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\viewmodel\\columndesignviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\viewmodel\\columndesignviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\view\\windowview\\beamsettingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|solutionrelative:vibrantbimdesignapp\\view\\windowview\\beamsettingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8A5AFA8-53E0-4FBC-AD7F-670B777F3D2D}|VibrantBIMDesignApp\\VibrantBIMDesignApp.csproj|c:\\users\\huy\\documents\\demo\\vibrantbimdesignapp\\vibrantbimdesignapp\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -137,7 +157,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -145,7 +165,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "DrawAnnotation.cs",
+              "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Library\\DrawAnnotation.cs",
+              "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Library\\DrawAnnotation.cs",
+              "ToolTip": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Library\\DrawAnnotation.cs",
+              "RelativeToolTip": "VibrantBIMDesignApp\\Library\\DrawAnnotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:45:48.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BeamSettingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\ViewModel\\BeamSettingViewModel.cs",
+              "RelativeDocumentMoniker": "VibrantBIMDesignApp\\ViewModel\\BeamSettingViewModel.cs",
+              "ToolTip": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\ViewModel\\BeamSettingViewModel.cs",
+              "RelativeToolTip": "VibrantBIMDesignApp\\ViewModel\\BeamSettingViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:27:49.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Setting.png - PNG [50x50, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Icon\\Setting.png",
+              "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Icon\\Setting.png",
+              "ToolTip": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Icon\\Setting.png - PNG [50x50, 32 bit, PNG]",
+              "RelativeToolTip": "VibrantBIMDesignApp\\Resource\\Icon\\Setting.png - PNG [50x50, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-28T10:25:37.929Z",
+              "EditorCaption": " - PNG [50x50, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TorsionStrength.png - PNG [70x42, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Icon\\TorsionStrength.png",
+              "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Icon\\TorsionStrength.png",
+              "ToolTip": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Icon\\TorsionStrength.png - PNG [70x42, 32 bit, PNG]",
+              "RelativeToolTip": "VibrantBIMDesignApp\\Resource\\Icon\\TorsionStrength.png - PNG [70x42, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-28T09:30:02.264Z",
+              "EditorCaption": " - PNG [70x42, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Revit.png - PNG [50x50, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Icon\\Revit.png",
+              "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Icon\\Revit.png",
+              "ToolTip": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Icon\\Revit.png - PNG [50x50, 32 bit, PNG]",
+              "RelativeToolTip": "VibrantBIMDesignApp\\Resource\\Icon\\Revit.png - PNG [50x50, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-28T09:09:13.39Z",
+              "EditorCaption": " - PNG [50x50, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "RibbonControlStyle.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Dictionary\\RibbonControlStyle.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Dictionary\\RibbonControlStyle.xaml",
@@ -157,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "Close.png - PNG [50x50, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Icon\\Close.png",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Icon\\Close.png",
@@ -169,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "Logo.png - PNG [640x640, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Icon\\Logo.png",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Icon\\Logo.png",
@@ -181,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "Minimize.png - PNG [50x50, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Icon\\Minimize.png",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Icon\\Minimize.png",
@@ -205,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\AssemblyInfo.cs",
@@ -213,24 +295,25 @@
               "RelativeToolTip": "VibrantBIMDesignApp\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:35:56.504Z"
+              "WhenOpened": "2025-01-26T09:35:56.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Language.json",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Language\\Language.json",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Language\\Language.json",
               "ToolTip": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Language\\Language.json",
               "RelativeToolTip": "VibrantBIMDesignApp\\Resource\\Language\\Language.json",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-26T09:28:33.44Z",
+              "WhenOpened": "2025-01-28T13:40:53.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "LanguageService.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Languages\\LanguageService.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Languages\\LanguageService.cs",
@@ -243,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "GroupBoxStyle.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Dictionary\\GroupBoxStyle.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Dictionary\\GroupBoxStyle.xaml",
@@ -255,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "ComboboxStyle.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Dictionary\\ComboboxStyle.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Dictionary\\ComboboxStyle.xaml",
@@ -267,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "TextBoxStyle.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Dictionary\\TextBoxStyle.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Dictionary\\TextBoxStyle.xaml",
@@ -279,20 +362,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "BeamDesignUC.xaml.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\View\\UCView\\BeamDesignUC.xaml.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\View\\UCView\\BeamDesignUC.xaml.cs",
               "ToolTip": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\View\\UCView\\BeamDesignUC.xaml.cs",
               "RelativeToolTip": "VibrantBIMDesignApp\\View\\UCView\\BeamDesignUC.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T14:08:36.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "BeamSettingWindow.g.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\obj\\Debug\\net8.0-windows\\View\\WindowVIew\\BeamSettingWindow.g.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\obj\\Debug\\net8.0-windows\\View\\WindowVIew\\BeamSettingWindow.g.cs",
@@ -300,23 +383,25 @@
               "RelativeToolTip": "VibrantBIMDesignApp\\obj\\Debug\\net8.0-windows\\View\\WindowVIew\\BeamSettingWindow.g.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:24:00.844Z"
+              "WhenOpened": "2025-01-16T14:24:00.844Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 10,
               "Title": "BeamSettingWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\View\\WindowView\\BeamSettingWindow.xaml.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\View\\WindowView\\BeamSettingWindow.xaml.cs",
               "ToolTip": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\View\\WindowView\\BeamSettingWindow.xaml.cs",
               "RelativeToolTip": "VibrantBIMDesignApp\\View\\WindowView\\BeamSettingWindow.xaml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:23:00.749Z"
+              "WhenOpened": "2025-01-16T14:23:00.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BeamSettingWindow.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\View\\WindowView\\BeamSettingWindow.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\View\\WindowView\\BeamSettingWindow.xaml",
@@ -328,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "TextBlockStyle.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Dictionary\\TextBlockStyle.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Dictionary\\TextBlockStyle.xaml",
@@ -340,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\MainWindow.xaml.cs",
@@ -348,11 +433,12 @@
               "RelativeToolTip": "VibrantBIMDesignApp\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T15:58:01.88Z"
+              "WhenOpened": "2025-01-12T15:58:01.88Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "Wall.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Model\\AreaDesignOrientation\\Wall.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Model\\AreaDesignOrientation\\Wall.cs",
@@ -360,11 +446,12 @@
               "RelativeToolTip": "VibrantBIMDesignApp\\Model\\AreaDesignOrientation\\Wall.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAswDUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T15:51:09.986Z"
+              "WhenOpened": "2025-01-12T15:51:09.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "Floor.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Model\\AreaDesignOrientation\\Floor.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Model\\AreaDesignOrientation\\Floor.cs",
@@ -372,11 +459,12 @@
               "RelativeToolTip": "VibrantBIMDesignApp\\Model\\AreaDesignOrientation\\Floor.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T15:50:33.007Z"
+              "WhenOpened": "2025-01-12T15:50:33.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 8,
               "Title": "ColumnDesignViewModel.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\ViewModel\\ColumnDesignViewModel.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\ViewModel\\ColumnDesignViewModel.cs",
@@ -384,11 +472,12 @@
               "RelativeToolTip": "VibrantBIMDesignApp\\ViewModel\\ColumnDesignViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T15:22:12.229Z"
+              "WhenOpened": "2025-01-12T15:22:12.229Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "BeamDesignViewModel.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\ViewModel\\BeamDesignViewModel.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\ViewModel\\BeamDesignViewModel.cs",
@@ -396,11 +485,12 @@
               "RelativeToolTip": "VibrantBIMDesignApp\\ViewModel\\BeamDesignViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T15:16:49.95Z"
+              "WhenOpened": "2025-01-12T15:16:49.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ControlBarUC.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\View\\UCView\\ControlBarUC.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\View\\UCView\\ControlBarUC.xaml",
@@ -412,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BeamDesignUC.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\View\\UCView\\BeamDesignUC.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\View\\UCView\\BeamDesignUC.xaml",
@@ -424,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "StyleWindow.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Dictionary\\StyleWindow.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Dictionary\\StyleWindow.xaml",
@@ -436,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "ButtonStyle.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Dictionary\\ButtonStyle.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Dictionary\\ButtonStyle.xaml",
@@ -448,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "TabControlStyle.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\Resource\\Dictionary\\TabControlStyle.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\Resource\\Dictionary\\TabControlStyle.xaml",
@@ -460,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\ViewModel\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\ViewModel\\ViewModelBase.cs",
@@ -468,23 +558,25 @@
               "RelativeToolTip": "VibrantBIMDesignApp\\ViewModel\\ViewModelBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T14:11:07.75Z"
+              "WhenOpened": "2025-01-12T14:11:07.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 12,
               "Title": "ControlBarViewModel.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\ViewModel\\ControlBarViewModel.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\ViewModel\\ControlBarViewModel.cs",
               "ToolTip": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\ViewModel\\ControlBarViewModel.cs",
               "RelativeToolTip": "VibrantBIMDesignApp\\ViewModel\\ControlBarViewModel.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAQwFoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T13:53:32.155Z"
+              "WhenOpened": "2025-01-12T13:53:32.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -492,11 +584,12 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAOMSAAAAAAAAAAD4v/kSAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-01-12T13:53:20.001Z"
+              "WhenOpened": "2025-01-12T13:53:20.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\ViewModel\\RelayCommand.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\ViewModel\\RelayCommand.cs",
@@ -504,23 +597,25 @@
               "RelativeToolTip": "VibrantBIMDesignApp\\ViewModel\\RelayCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T13:30:54.792Z"
+              "WhenOpened": "2025-01-12T13:30:54.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 9,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\ViewModel\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "VibrantBIMDesignApp\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJcAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAJcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T12:14:13.865Z"
+              "WhenOpened": "2025-01-12T12:14:13.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\huy\\Documents\\Demo\\VibrantBIMDesignApp\\VibrantBIMDesignApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "VibrantBIMDesignApp\\MainWindow.xaml",

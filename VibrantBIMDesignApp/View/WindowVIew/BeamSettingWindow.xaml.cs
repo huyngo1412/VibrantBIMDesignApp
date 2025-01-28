@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using VibrantBIMDesignApp.ViewModel;
 
 namespace VibrantBIMDesignApp.View.WindowView
 {
@@ -19,9 +20,11 @@ namespace VibrantBIMDesignApp.View.WindowView
     /// </summary>
     public partial class BeamSettingWindow : Window
     {
+        private BeamDesignViewModel viewModel { get; set; }
         public BeamSettingWindow()
         {
             InitializeComponent();
+            this.DataContext =  viewModel = new BeamDesignViewModel(); 
         }
     }
 }

@@ -5,15 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VibrantBIMDesignApp.View.WindowView"
         mc:Ignorable="d"
+        xmlns:Language="clr-namespace:VibrantBIMDesignApp.Languages"
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         Title="Beam Setting " Height="auto" Width="auto"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
+        Name="BeamSettingView"
         SizeToContent="WidthAndHeight"
     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <Language:LanguageService x:Key="LanguageService"></Language:LanguageService>
+                </ResourceDictionary>
                 <ResourceDictionary Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Dictionary/StyleWindow.xaml"></ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
             
@@ -150,13 +155,20 @@
 
                     </Grid.RowDefinitions>
                     <Canvas Grid.Row="7" Background="Red" Grid.Column="0" Grid.ColumnSpan="4"></Canvas>
-                    <TextBlock Text="Đặt tên PX/PY :" Grid.Row="0" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
-                    <TextBlock Text="Đường kính thép chủ :" Grid.Row="1" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
-                    <TextBlock Text="Đường kính thép đai :" Grid.Row="2" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
-                    <TextBlock Text="Khoảng cách thép đai tự động :" Grid.Row="3" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
-                    <TextBlock Text="Khoảng cách thông thủy tối thiểu :" Grid.Row="4" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
-                    <TextBlock Text="Hàm lượng thép tối thiểu (%) :" Grid.Row="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
-                    <TextBlock Text="Hệ số an toàn (Mu/M) :" Grid.Row="6" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[AssignNamePXPY]}"
+                               Grid.Row="0" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[LongitudinalBarDiameter]}"
+                               Grid.Row="1" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[ConfinementBarDiameter]}"
+                               Grid.Row="2" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[StirrupSpacing]}" 
+                               Grid.Row="3" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[MinimumClearSpacingBetweenRebar]}"
+                               Grid.Row="4" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[MinimumReinforcementRatio]}"
+                               Grid.Row="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[SafetyFactor]}"
+                               Grid.Row="6" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
 
                     <StackPanel Margin="10,0,0,0" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
                         <TextBox Width="75" Style="{StaticResource Primary TextBox}">D</TextBox>
@@ -192,19 +204,22 @@
 
                     <StackPanel Margin="10,0,0,0" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
                         <TextBox Width="75" Style="{StaticResource Primary TextBox}">40</TextBox>
-                        <TextBlock Margin="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}">Đặt thép giá khi chiều cao dầm >= </TextBlock>
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[SideReinforcement]}"
+                            Margin="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
                         <TextBox Width="75" Style="{StaticResource Primary TextBox}">700</TextBox>
                     </StackPanel>
 
                     <StackPanel Margin="10,0,0,0" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
                         <TextBox Width="75" Style="{StaticResource Primary TextBox}">0.1</TextBox>
-                        <TextBlock Margin="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}">Cắt thép khi chiều dài dầm >=</TextBlock>
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[SteelCutting]}"
+                            Margin="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
                         <TextBox Width="75" Style="{StaticResource Primary TextBox}">2500</TextBox>
                     </StackPanel>
 
                     <StackPanel Margin="10,0,0,0" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
                         <TextBox Width="75" Style="{StaticResource Primary TextBox}">1.1</TextBox>
-                        <TextBlock Margin="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}">Lớp bê tông bảo vệ</TextBlock>
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[RebarCover]}"
+                            Margin="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
                         <TextBox Width="75" Style="{StaticResource Primary TextBox}">25</TextBox>
                     </StackPanel>
                 </Grid>

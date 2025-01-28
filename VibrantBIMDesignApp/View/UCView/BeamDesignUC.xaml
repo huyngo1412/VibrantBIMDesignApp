@@ -43,7 +43,7 @@
                 <Button Style="{StaticResource Secondary Ribbon Button}" Margin="0,5,0,0"
                                     >
                     <StackPanel Style="{StaticResource Secondary RibbonControl }">
-                        <Image Width="25" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
+                        <Image Width="25" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Etabs.png"></Image>
                         <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[InternalForceRibbonControl]}"
                                                HorizontalAlignment="Left"></TextBlock>
                     </StackPanel>
@@ -51,14 +51,14 @@
                 <Button  Style="{StaticResource Secondary Ribbon Button}" Margin="0,5,0,0"
                                       >
                     <StackPanel Style="{StaticResource Secondary RibbonControl }">
-                        <Image Width="25" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
+                        <Image Width="25" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Excel.png"></Image>
                         <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[ExportDatabaseToExcelRibbonControl]}"></TextBlock>
                     </StackPanel>
                 </Button>
                 <Button  Style="{StaticResource Secondary Ribbon Button}" Margin="0,5,0,0"
           >
                     <StackPanel Style="{StaticResource Secondary RibbonControl }">
-                        <Image Width="25" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
+                        <Image Width="25" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Revit.png"></Image>
                         <TextBlock Text="Etabs -> Revit"></TextBlock>
                     </StackPanel>
                 </Button>
@@ -72,14 +72,14 @@
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
                         >
                     <StackPanel Style="{StaticResource Primary RibbonControl }">
-                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
+                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/LongitudinalBars.png"></Image>
                         <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[LongitudinalBarsRibbonControl]}"
                                      HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
                 </Button>
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75">
                     <StackPanel Style="{StaticResource Primary RibbonControl }">
-                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
+                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/ConfinementBars.png"></Image>
                         <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[ConfinementBarsRibbonControl]}"
                                     HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
@@ -102,7 +102,7 @@
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
 >
                     <StackPanel Style="{StaticResource Primary RibbonControl }">
-                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
+                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/TorsionStrength.png"></Image>
                         <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[CheckTorsionRibbonControl]}"
                                     HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
@@ -126,7 +126,7 @@
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
                           >
                     <StackPanel Style="{StaticResource Primary RibbonControl }">
-                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
+                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Crack.png"></Image>
                         <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[CheckCrackingRibbonControl]}"
                                      HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
@@ -134,7 +134,7 @@
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
 >
                     <StackPanel Style="{StaticResource Primary RibbonControl }">
-                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
+                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Curvature.png"></Image>
                         <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[CheckCurvatureRibbonControl]}"
                                     HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
@@ -150,7 +150,7 @@
                 <Button Style="{StaticResource Secondary Ribbon Button}" Height="75"
                         Command="{Binding BeamSetting}">
                     <StackPanel Style="{StaticResource Primary RibbonControl }">
-                        <Image Width="70" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Minimize.png"></Image>
+                        <Image Width="30" Height="55" Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Icon/Setting.png"></Image>
                         <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[SettingRibbonControl]}"
                                      HorizontalAlignment="Center"></TextBlock>
                     </StackPanel>
