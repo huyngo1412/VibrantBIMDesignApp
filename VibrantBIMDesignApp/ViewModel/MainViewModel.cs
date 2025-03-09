@@ -6,7 +6,7 @@ using System.IO;
 using System.Windows;
 using System.Windows.Input;
 using VibrantBIMDesignApp.Languages;
-using VibrantBIMDesignApp.View.WindowView;
+using VibrantBIMDesignApp.View.WindowForm;
 
 namespace VibrantBIMDesignApp.ViewModel
 {
@@ -78,13 +78,11 @@ namespace VibrantBIMDesignApp.ViewModel
         public ICommand ConnectEtabsAPI { get; set; }
         public ICommand BeamSetting { get; set; }
         public ICommand SaveCommand { get; set; }
-
         public MainViewModel()
         {
             int ret = -1;
             cHelper myHelper = new Helper();
             Notifications = new ObservableCollection<string>();
-
             ReLoadEtabsAPI = new RelayCommand<object>((p) => true, (p) =>
             {
                 FileName = new ObservableCollection<string>();
@@ -146,7 +144,7 @@ namespace VibrantBIMDesignApp.ViewModel
 
             BeamSetting = new RelayCommand<object>((p) => true, (p) => {
                 BeamSettingWindow beamSettingWindow = new BeamSettingWindow();
-                beamSettingWindow.Show();
+                beamSettingWindow.ShowDialog();
             });
             SaveCommand = new RelayCommand<object>((p) => true, (p) => {
                 MessageBox.Show("Dữ liệu sẽ được lưu");

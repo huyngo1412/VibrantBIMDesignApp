@@ -9,6 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Model\Datum\**" />
+    <Compile Remove="Model\FrameDesignOrientation\**" />
+    <Compile Remove="Model\Material\**" />
+    <EmbeddedResource Remove="Model\Datum\**" />
+    <EmbeddedResource Remove="Model\FrameDesignOrientation\**" />
+    <EmbeddedResource Remove="Model\Material\**" />
+    <None Remove="Model\Datum\**" />
+    <None Remove="Model\FrameDesignOrientation\**" />
+    <None Remove="Model\Material\**" />
+    <Page Remove="Model\Datum\**" />
+    <Page Remove="Model\FrameDesignOrientation\**" />
+    <Page Remove="Model\Material\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Resource\Icon\Close.png" />
     <None Remove="Resource\Icon\ConfinementBars.png" />
     <None Remove="Resource\Icon\Crack.png" />
@@ -33,20 +48,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Model\Datum\" />
-    <Folder Include="Model\FrameDesignOrientation\" />
-    <Folder Include="Model\Material\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MvvmLight" Version="5.4.1.1" />
-    <PackageReference Include="RibbonControlsLibrary" Version="4.0.0" />
-    <PackageReference Include="System.Windows.Interactivity.WPF" Version="2.0.20525" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="ETABSv1">
-      <HintPath>..\..\..\..\..\..\Program Files\Computers and Structures\ETABS 22\ETABSv1.dll</HintPath>
+      <HintPath>C:\Program Files\Computers and Structures\ETABS 22\ETABSv1.dll</HintPath>
     </Reference>
   </ItemGroup>
 

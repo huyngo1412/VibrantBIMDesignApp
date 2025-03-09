@@ -13,7 +13,7 @@
     <Compile Update="View\UCView\ControlBarUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\WindowView\BeamSettingWindow.xaml.cs">
+    <Compile Update="View\WindowForm\BeamSettingWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -51,7 +51,7 @@
     <Page Update="View\UCView\ControlBarUC.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\WindowView\BeamSettingWindow.xaml">
+    <Page Update="View\WindowForm\BeamSettingWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

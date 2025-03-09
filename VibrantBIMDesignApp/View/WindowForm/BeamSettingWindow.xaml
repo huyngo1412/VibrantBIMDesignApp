@@ -1,0 +1,236 @@
+﻿<Window x:Class="VibrantBIMDesignApp.View.WindowForm.BeamSettingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VibrantBIMDesignApp.View.WindowForm"
+        mc:Ignorable="d"
+        xmlns:Language="clr-namespace:VibrantBIMDesignApp.Languages"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:ei="http://schemas.microsoft.com/xaml/behaviors/2010"
+        Title="Beam Setting " Height="600" Width="750"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Name="BeamSettingView"
+        >
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadWindowCommand}" CommandParameter="{Binding ElementName=CanvasBeamSetting}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <Language:LanguageService x:Key="LanguageService"></Language:LanguageService>
+                </ResourceDictionary>
+                <ResourceDictionary Source="pack://application:,,,/VibrantBIMDesignApp;component/Resource/Dictionary/StyleWindow.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Height="auto">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="525"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <StackPanel HorizontalAlignment="Center" Grid.Row="1" Orientation="Horizontal">
+            <Button  Margin="10,0,10,10" Width="80" Style="{StaticResource Secondary Button}" >
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MoveMove">
+                        <i:InvokeCommandAction Command="{Binding OK}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Margin="10,0,10,10" Width="80" Style="{StaticResource Secondary Button}">Cancel</Button>
+        </StackPanel>
+        <TabControl Margin="10,10,10,5" Grid.Row="0">
+
+            <TabItem Header="  Vật liệu  " 
+             Style="{StaticResource TabItemStyle}">
+                <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Width="600" Height="auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <GroupBox  Grid.Column="0" Margin="10,10,10,0" Header="Bê tông" FontSize="14">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Style="{StaticResource Primary TextBlock}">Cấp độ bền</TextBlock>
+                            <TextBlock Grid.Row="1" Style="{StaticResource Primary TextBlock}">
+                                <Run Text="R" />
+                                <Run Text="b" BaselineAlignment="Subscript" FontSize="10" />
+                            </TextBlock>
+                            <TextBlock Grid.Row="2" Style="{StaticResource Primary TextBlock}">
+                                <Run Text="R" />
+                                <Run Text="bt" BaselineAlignment="Subscript" FontSize="10" />
+                            </TextBlock>
+                            <TextBlock Grid.Row="3" Style="{StaticResource Primary TextBlock}">E</TextBlock>
+                            <TextBlock Grid.Row="4" Style="{StaticResource Primary TextBlock}">
+                                <Run Text="&#x03B3;" BaselineAlignment="Superscript"></Run>
+                                <Run Text="b" BaselineAlignment="Center"  FontSize="10" />
+                            </TextBlock>
+
+                            <ComboBox Grid.Column="1" Grid.Row="0" Style="{StaticResource Primary Combobox}"></ComboBox>
+                            <TextBox  Grid.Column="1" Grid.Row="1" Style="{StaticResource Primary TextBox}">
+
+                            </TextBox>
+                            <TextBox Grid.Column="1" Grid.Row="2" Style="{StaticResource Primary TextBox}"></TextBox>
+                            <TextBox Grid.Column="1" Grid.Row="3" Style="{StaticResource Primary TextBox}"></TextBox>
+                            <TextBox Grid.Column="1" Grid.Row="4" Style="{StaticResource Primary TextBox}"></TextBox>
+
+                        </Grid>
+                    </GroupBox>
+
+                    <GroupBox Style="{StaticResource GroupBoxStyle1}" Grid.Column="1" Margin="10,10,10,0" Header="Thép chủ" FontSize="14">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Style="{StaticResource Primary TextBlock}">Cấp độ bền</TextBlock>
+                            <TextBlock Grid.Row="1" Style="{StaticResource Primary TextBlock}">
+            <Run Text="R" />
+            <Run Text="s,n" BaselineAlignment="Subscript" FontSize="10" />
+                            </TextBlock>
+                            <TextBlock Grid.Row="2" Style="{StaticResource Primary TextBlock}">
+            <Run Text="R" />
+            <Run Text="sc" BaselineAlignment="Subscript" FontSize="10" />
+                            </TextBlock>
+                            <TextBlock Grid.Row="3" Style="{StaticResource Primary TextBlock}">
+<Run Text="R" />
+<Run Text="s" BaselineAlignment="Subscript" FontSize="10" />
+                            </TextBlock>
+                            <TextBlock Grid.Row="4" Style="{StaticResource Primary TextBlock}">E</TextBlock>
+                            <TextBlock Grid.Row="5" Style="{StaticResource Primary TextBlock}">
+            <Run Text="&#x03B3;" BaselineAlignment="Superscript"></Run>
+            <Run Text="b" BaselineAlignment="Center"  FontSize="10" />
+                            </TextBlock>
+
+                            <ComboBox Grid.Column="1" Grid.Row="0" Style="{StaticResource Primary Combobox}"></ComboBox>
+                            <TextBox Grid.Column="1" Grid.Row="1" Style="{StaticResource Primary TextBox}"></TextBox>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+
+
+
+
+
+            <TabItem Header="  Thiết kế tự động  " 
+             Style="{StaticResource TabItemStyle}">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="250"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Canvas x:Name="CanvasBeamSetting" Grid.Row="7" Background="White" Grid.Column="0" Grid.ColumnSpan="4">
+                        <!--<Rectangle Height="150" Width="100" Canvas.Top="50" Canvas.Left="50" Fill="Red"></Rectangle>-->
+                    </Canvas>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[AssignNamePXPY]}"
+                               Grid.Row="0" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[LongitudinalBarDiameter]}"
+                               Grid.Row="1" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[ConfinementBarDiameter]}"
+                               Grid.Row="2" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[StirrupSpacing]}" 
+                               Grid.Row="3" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[MinimumClearSpacingBetweenRebar]}"
+                               Grid.Row="4" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[MinimumReinforcementRatio]}"
+                               Grid.Row="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[SafetyFactor]}"
+                               Grid.Row="6" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+
+                    <StackPanel Margin="10,0,0,0" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
+                        <TextBox Width="75" Style="{StaticResource Primary TextBox}">D</TextBox>
+                        <TextBlock Margin="5"  VerticalAlignment="Center">-</TextBlock>
+                        <TextBox  Width="75" Style="{StaticResource Primary TextBox}">1</TextBox>
+                        <TextBlock Margin="5" VerticalAlignment="Center">/</TextBlock>
+                        <TextBox Width="75" Style="{StaticResource Primary TextBox}">D</TextBox>
+                        <TextBlock Margin="5" VerticalAlignment="Center">-</TextBlock>
+                        <TextBox  Width="75" Style="{StaticResource Primary TextBox}">1</TextBox>
+                    </StackPanel>
+
+                    <StackPanel Margin="10,0,0,0" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
+                        <ComboBox Style="{StaticResource Primary Combobox}"  Width="75"></ComboBox>
+                        <TextBlock Margin="5"  VerticalAlignment="Center">-</TextBlock>
+                        <ComboBox Style="{StaticResource Primary Combobox}"  Width="75"></ComboBox>
+                    </StackPanel>
+
+                    <StackPanel Margin="10,0,0,0" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
+                        <TextBox Width="75" Style="{StaticResource Primary TextBox}">6</TextBox>
+                        <TextBlock Margin="5"  VerticalAlignment="Center">-</TextBlock>
+                        <TextBox  Width="75" Style="{StaticResource Primary TextBox}">8</TextBox>
+                        <TextBlock Margin="5" VerticalAlignment="Center">-</TextBlock>
+                        <TextBox  Width="75" Style="{StaticResource Primary TextBox}">10</TextBox>
+                    </StackPanel>
+
+                    <StackPanel Margin="10,0,0,0" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
+                        <TextBox Width="75" Style="{StaticResource Primary TextBox}">100</TextBox>
+                        <TextBlock Margin="5"  VerticalAlignment="Center">-</TextBlock>
+                        <TextBox  Width="75" Style="{StaticResource Primary TextBox}">150</TextBox>
+                        <TextBlock Margin="5" VerticalAlignment="Center">-</TextBlock>
+                        <TextBox  Width="75" Style="{StaticResource Primary TextBox}">200</TextBox>
+                    </StackPanel>
+
+                    <StackPanel Margin="10,0,0,0" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
+                        <TextBox Width="75" Style="{StaticResource Primary TextBox}">40</TextBox>
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[SideReinforcement]}"
+                            Margin="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                        <TextBox Width="75" Style="{StaticResource Primary TextBox}">700</TextBox>
+                    </StackPanel>
+
+                    <StackPanel Margin="10,0,0,0" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
+                        <TextBox Width="75" Style="{StaticResource Primary TextBox}">0.1</TextBox>
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[SteelCutting]}"
+                            Margin="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                        <TextBox Width="75" Style="{StaticResource Primary TextBox}">2500</TextBox>
+                    </StackPanel>
+
+                    <StackPanel Margin="10,0,0,0" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
+                        <TextBox Width="75" Style="{StaticResource Primary TextBox}">1.1</TextBox>
+                        <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[RebarCover]}"
+                            Margin="5" VerticalAlignment="Center" Style="{StaticResource Primary TextBlock}"></TextBlock>
+                        <TextBox Width="75" Style="{StaticResource Primary TextBox}">25</TextBox>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:VibrantBIMDesignApp"
         xmlns:uc="clr-namespace:VibrantBIMDesignApp.View.UCView"
         xmlns:Language="clr-namespace:VibrantBIMDesignApp.Languages"
-        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
         Name ="MainWindowApp"
         WindowStyle="None" 
@@ -15,11 +15,11 @@
         Background="#FFEAEAEA"
         WindowStartupLocation="CenterScreen"
         >
-    <!--<i:Interaction.Triggers>
+    <i:Interaction.Triggers>
         <i:EventTrigger EventName="Loaded">
-            <i:InvokeCommandAction Command="{Binding LoadAPIEtabs}"/>
+            <i:InvokeCommandAction Command="{Binding Loadcmd}"/>
         </i:EventTrigger>
-    </i:Interaction.Triggers>-->
+    </i:Interaction.Triggers>
     <Window.InputBindings>
         <KeyBinding Key="S" Modifiers="Control" Command="{Binding SaveCommand}" />
     </Window.InputBindings>
@@ -101,8 +101,8 @@
             <GroupBox Style="{StaticResource Primary GroupBox}" Grid.Row="0" Grid.Column="1" Margin="-1,0,0,-1">
                 <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="VibrantBIM Structural Design V25.01" VerticalAlignment="Center"  HorizontalAlignment="Left"></TextBlock>
-                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[Author]}"  VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Medium" Foreground="#FF35A3DC"></TextBlock>
-                    <TextBlock Text="Email : huyngo14122002@gmail.com" VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Medium" Foreground="#FF35A3DC"></TextBlock>
+                    <TextBlock Text="{Binding Source={StaticResource LanguageService}, Path=[Author]}"  VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Medium" Foreground="Blue"></TextBlock>
+                    <TextBlock Text="Email : huyngo14122002@gmail.com" VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Medium" Foreground="Blue"></TextBlock>
                 </StackPanel>
             </GroupBox>
             <GroupBox Style="{StaticResource Primary GroupBox}" Grid.Row="0" Grid.Column="2" Margin="-1,0,0,-1">
