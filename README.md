@@ -5,7 +5,6 @@
 - [Giới thiệu](#giới-thiệu)
 - [Tính năng](#tính-năng)
 - [Yêu cầu hệ thống](#yêu-cầu-hệ-thống)
-- [Hướng dẫn sử dụng](#hướng-dẫn-sử-dụng)
 - [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 ---
 
@@ -33,6 +32,10 @@
 - Revit 2025 hoặc các phiên bản mới hơn  
 - ETABS V22 hoặc các phiên bản mới hơn  
 - Visual Studio 2019 (Dành cho lập trình viên muốn phát triển thêm cho dự án)
+## Tài liệu tham khảo
 
+[Revit API Documentation](https://www.revitapidocs.com/)
+
+[ETABS/ SAP2000 API Documentation](https://www.csiamerica.com/developer)
 ---
 
