@@ -17,7 +17,7 @@
 ## Tính Năng
 
 - Chuyển đổi mô hình ETABS sang Revit
-- Hỗ trợ tính toán cốt thép các phần tử kết cấu như: dầm, cột, sàn, tường (Đang phát triển)
+- Hỗ trợ tính toán cốt thép các phần tử kết cấu như: dầm, cột, sàn, vách (Đang phát triển)
 - Đọc dữ liệu IFC từ mô hình kết cấu bê tông Revit (Đang phát triển)
 - Lưu cơ sở dữ liệu tính toán dưới định dạng file XML, Json (Đang phát triển)
 - Giữ nguyên thông tin vật liệu và kích thước tiết diện
