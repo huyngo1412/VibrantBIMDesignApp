@@ -11,9 +11,9 @@
 ## Giới Thiệu
 
 **VibrantBIM Structural Concrete Design** là công cụ hổ trợ kỹ sư kết cấu tính toán các cấu kiện cốt thép cột, dầm, sàn từ phần mềm ETABS và chuyển đổi dữ liệu cốt thép được thiết kế từ phần mềm sang Revit.  
+<!-- Uploading "3546542c-acc1-44fe-a6b6-29cd020d3961.png"... -->
 
 ---
-
 ## Tính Năng
 
 - Chuyển đổi mô hình ETABS sang Revit
